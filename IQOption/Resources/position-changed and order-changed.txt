@@ -1,0 +1,36 @@
+digital place (create orden)
+order_id: 15013221580
+
+position-changed
+id: 14349077911
+external_id: 14349077911
+id: "8fff64019ab00abe3201a73aa76b963f"
+order_ids: [15013221580]
+update_at: 1635576124457
+status open
+
+order-changed
+id: 15013221580
+id: "187af099596a4ed35f6cca57ca06fb52"
+position_id: 14349077911
+position_id: "8fff64019ab00abe3201a73aa76b963f"
+update_at: 1635576124457
+status filled
+
+//response after user cancel position
+
+position-changed
+id: 14349077911
+external_id: 14349077911
+id: "8fff64019ab00abe3201a73aa76b963f"
+order_ids: [15013221580, 15013223073]
+update_at: 1635576157956
+status closed
+
+order-changed
+id: 15013223073
+id: "711e32208db0940985b6108d10dc2188"
+position_id: 14349077911
+position_id: "8fff64019ab00abe3201a73aa76b963f"
+update_at: 1635576157956
+status filled

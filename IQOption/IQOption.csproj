@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>RAGS.IQOption</PackageId>
+    <Title>IQOption</Title>
+    <Authors>richardags</Authors>
+    <PackageProjectUrl>https://github.com/richardags/RAGS.IQOption</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/richardags/RAGS.IQOption</RepositoryUrl>
+    <PackageReleaseNotes>This is a local nupkg tha become a published nupkg.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>This is a API for trading like the IQOption plataform.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RAGS.DateTimeOffsetExtension" Version="1.0.11" />
+    <PackageReference Include="RAGS.HttpClientHelper" Version="1.0.2" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+  </ItemGroup>
+
+</Project>

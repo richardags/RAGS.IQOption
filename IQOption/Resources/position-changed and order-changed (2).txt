@@ -1,0 +1,26 @@
+digital place (create orden)
+order_id: 15013415610
+
+order-changed
+id: 15013415610
+id: "b3802f4cfad7f66be7d472ef72be43ea"
+position_id: 14349254507
+position_id: "0aaf942443db6cd85467c15cc10df059"
+update_at: 1635580627170
+status filled
+
+position-changed
+id: 14349254507
+id: "0aaf942443db6cd85467c15cc10df059"
+order_ids: [15013415610]
+update_at: 1635580627170
+status open
+
+//response after finish
+
+position-changed
+id: 14349254507
+id: "0aaf942443db6cd85467c15cc10df059"
+order_ids: [15013415610]
+update_at: 1635580680348
+status closed

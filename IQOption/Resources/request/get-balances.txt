@@ -1,0 +1,20 @@
+{
+	"name":"sendMessage",
+	"request_id":"11",
+	"local_time":10831,
+	"msg":{
+		"name":"get-balances",
+		"version":"1.0",
+		"body":{
+			"types_ids":[
+				1,
+				4,
+				2
+			],
+			"tournaments_statuses_ids":[
+				3,
+				2
+			]
+		}
+	}
+}
