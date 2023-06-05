@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace IQOption.WebSocket.Classes.JSON.Converter.DateTime
+namespace RAGS.IQOption.WebSocket.Classes.JSON.Converter.DateTime
 {
     internal class UTNanoSecondsJsonConverter : DateTimeConverterBase
     {

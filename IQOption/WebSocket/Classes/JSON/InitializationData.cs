@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using IQOption.WebSocket.Classes.JSON.Converter;
+using RAGS.IQOption.WebSocket.Classes.JSON.Converter;
 using Newtonsoft.Json;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class InitializationData
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class BalanceChanged
     {

@@ -1,10 +1,10 @@
 ﻿using System;
-using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Classes.JSON.Converter.DateTime;
+using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Classes.JSON.Converter.DateTime;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class _BuyComplete
     {

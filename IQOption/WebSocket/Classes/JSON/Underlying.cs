@@ -1,9 +1,9 @@
-﻿using IQOption.WebSocket.Classes.JSON.Converter.DateTime;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON.Converter.DateTime;
 using Newtonsoft.Json;
 using System;
 using System.Runtime.Serialization;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class Underlying
     {

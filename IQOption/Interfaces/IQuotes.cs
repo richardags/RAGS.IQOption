@@ -1,7 +1,7 @@
-﻿using IQOption.WebSocket.Classes.JSON;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON;
 using System.Collections.Generic;
 
-namespace IQOption.Interfaces
+namespace RAGS.IQOption.Interfaces
 {
     public delegate void EventOnQuotesGetCandlesEvent(string request_id, List<Candle> candles);
     public delegate void EventOnQuotesCandleGeneratedEvent(CandleGenerated candleGenerated);

@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Reflection.PortableExecutable;
 using System.Text;
 
-namespace IQOption.WebRequest
+namespace RAGS.IQOption.WebRequest
 {
     internal class TradeRequest
     {

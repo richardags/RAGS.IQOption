@@ -1,5 +1,6 @@
-﻿using IQOption.WebSocket.Classes.JSON;
-namespace IQOption.Interfaces
+﻿using RAGS.IQOption.WebSocket.Classes.JSON;
+
+namespace RAGS.IQOption.Interfaces
 {
     public class BinaryOptionsOpenOptionException
     {

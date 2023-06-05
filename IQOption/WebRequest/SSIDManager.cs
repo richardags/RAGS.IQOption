@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace IQOption.WebRequest
+namespace RAGS.IQOption.WebRequest
 {
     internal static class SSIDManager
     {

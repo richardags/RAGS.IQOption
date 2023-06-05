@@ -1,4 +1,4 @@
-﻿namespace IQOption.Interfaces
+﻿namespace RAGS.IQOption.Interfaces
 {
     public enum Status
     {

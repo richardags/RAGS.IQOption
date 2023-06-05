@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class CoreGetProfile
     {

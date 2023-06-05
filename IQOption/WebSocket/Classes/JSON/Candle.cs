@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Classes.JSON.Converter.DateTime;
+using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Classes.JSON.Converter.DateTime;
 using Newtonsoft.Json;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class Candle
     {

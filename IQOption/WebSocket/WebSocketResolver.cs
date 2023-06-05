@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using IQOption.Interfaces;
-using IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.Interfaces;
+using RAGS.IQOption.WebSocket.Classes.JSON;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace IQOption.WebSocket
+namespace RAGS.IQOption.WebSocket
 {
     public class WebSocketResolver : IDigitalOptionInstruments, IPriceSplitter, IDigitalOption,
         IQuotes, IPortfolio, IBinaryOptions, IInternalBilling

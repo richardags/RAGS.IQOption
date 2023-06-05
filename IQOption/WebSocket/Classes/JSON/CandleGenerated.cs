@@ -1,18 +1,13 @@
-﻿using IQOption.WebSocket.Classes.JSON.Converter.DateTime;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON.Converter.DateTime;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static IQOption.WebSocket.Classes.JSON.Enumerations;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class CandleGenerated
     {
         public int active_id;
-        public CandleSize size;
+        public Enumerations.CandleSize size;
         [JsonConverter(typeof(UTNanoSecondsJsonConverter))]
         public DateTimeOffset at;
         [JsonConverter(typeof(UTSecondsJsonConverter))]
@@ -31,19 +26,19 @@ namespace IQOption.WebSocket.Classes.JSON
         public int volume;
         //public Enumerations.Phase phase;
 
-        public Direction direction()
+        public Enumerations.Direction direction()
         {
             if (close > open)
             {
-                return Direction.call;
+                return Enumerations.Direction.call;
             }
             else if (close < open)
             {
-                return Direction.put;
+                return Enumerations.Direction.put;
             }
             else
             {
-                return Direction.equal;
+                return Enumerations.Direction.equal;
             }
         }
     }

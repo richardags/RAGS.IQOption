@@ -1,6 +1,6 @@
-﻿using IQOption.WebSocket.Classes.JSON;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON;
 
-namespace IQOption.Interfaces
+namespace RAGS.IQOption.Interfaces
 {
     public class Error
     {

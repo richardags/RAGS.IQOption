@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace IQOption.WebSocket.Classes.JSON
+namespace RAGS.IQOption.WebSocket.Classes.JSON
 {
     public class DOIUnderlyingList
     {

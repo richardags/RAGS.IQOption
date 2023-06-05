@@ -1,8 +1,8 @@
-﻿using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Send.Classes;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Send.Classes;
 using Newtonsoft.Json.Linq;
 
-namespace IQOption.WebSocket.Send.Models
+namespace RAGS.IQOption.WebSocket.Send.Models
 {
     internal class Parameters
     {

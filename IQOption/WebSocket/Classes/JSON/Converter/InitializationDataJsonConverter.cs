@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQOption.WebSocket.Classes.JSON.Converter
+namespace RAGS.IQOption.WebSocket.Classes.JSON.Converter
 {
     internal class InitializationDataJsonConverter : JsonConverter
     {

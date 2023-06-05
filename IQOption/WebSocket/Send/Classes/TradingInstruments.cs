@@ -1,12 +1,12 @@
-﻿using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Send.Models;
+﻿using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Send.Models;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace IQOption.WebSocket.Send.Classes
+namespace RAGS.IQOption.WebSocket.Send.Classes
 {
     internal class TradingInstruments
     {

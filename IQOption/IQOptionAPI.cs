@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using IQOption.Interfaces;
-using IQOption.WebSocket;
-using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Send.Classes;
+using RAGS.IQOption.Interfaces;
+using RAGS.IQOption.WebSocket;
+using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Send.Classes;
 
-namespace IQOption
+namespace RAGS.IQOption
 {
     public class IQOptionAPI : WebSocketAPI, IAuthentication
     {
@@ -319,6 +319,7 @@ namespace IQOption
         #endregion
 
         #region Quotes
+        //WARNING: 50ms server ignore
         public void QuotesGetCandles(int asset_id, Enumerations.CandleSize size, DateTimeOffset to,
             int count, string request_id = null)
         {

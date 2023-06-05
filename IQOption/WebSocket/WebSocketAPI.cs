@@ -4,12 +4,12 @@ using System.Security.Authentication;
 using System.Text;
 using SuperSocket.ClientEngine;
 using WebSocket4Net;
-using IQOption.WebRequest;
-using IQOption.WebSocket.Classes;
-using IQOption.WebSocket.Classes.JSON;
-using IQOption.WebSocket.Send.Classes;
+using RAGS.IQOption.WebRequest;
+using RAGS.IQOption.WebSocket.Classes;
+using RAGS.IQOption.WebSocket.Classes.JSON;
+using RAGS.IQOption.WebSocket.Send.Classes;
 
-namespace IQOption.WebSocket
+namespace RAGS.IQOption.WebSocket
 {
     public class WebSocketAPI : WebSocketResolver
     {

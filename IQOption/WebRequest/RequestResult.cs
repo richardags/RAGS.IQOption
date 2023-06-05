@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQOption.WebRequest
+namespace RAGS.IQOption.WebRequest
 {
     internal class RequestResult
     {
